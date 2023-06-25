@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* header section */
+#header{
+    background-image: url(Fitness_img/banner.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a{
+    float: right;
+    color: white !important;
+}
+.navbar-brand img{
+    filter: invert(100%) !important;
+    width: 250px;
+    margin-left: 30px;
+}
+.navbar-toggler{
+    border: 66px!important;
+    outline: none!important;
+}
+nav .fa{
+    color: azure !important;
+    font-size: 26px;
+}
+
+/* welcome text */
+
+.welcome{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.welcome h1{
+    color: #333;
+}
+.welcome .home-btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff !important;
+    background-color: #013f7e !important;
+}
+.welcome .home-btn:focus{
+    box-shadow: none;
+}
+
+/* About us */
+#about{
+    padding: 100px 0;
+}
+#about .col-md-6{
+    padding: 20px 10px;
+}
+#about h3{
+    margin: 20px auto;
+}
+
+/* services */
+#services{
+    background-color: #efefef;
+    padding: 80px 0;
+}
+#services .col-md-4{
+    padding: 20px ;
+}
+#services .col-md-4 h4{
+    padding: 5px ;
+}
+#services .col-md-4 p{
+    padding: 5px ;
+    text-align: justify;
+}
+#services .col-md-4 img{
+    width: 50px ;
+}
+
+/* features */
+#features{
+    padding: 100px 0;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Fitness_img/feature-background.jpg)center center/cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+#features .col-md-6{
+    padding: 20px;
+}
+.feature-box{
+    height: 120px;
+}
+.feature-box .feature-left{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.feature-box .feature-left .fa{
+    padding-top: 13px;
+    font-size: 60px;
+}
+.feature-box .feature-right{
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.feature-box .feature-right h4{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+.feature-box .feature-right p{
+    padding-left: 15px;
+    text-align: left;
+}
+
+/* reviews */
+#reviews{
+    padding: 100px 0;
+}
+#reviews .col-md-4{
+    padding: 10px 30px;
+}
+#reviews img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+    border: 5px solid #fff;
+
+}
+.review{
+    font-size: 16px;
+    padding: 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
+}
+
+.review .fa-twitter{
+    color: #013f7e;
+}
+#reviews span{
+    color: #013f7e;
+    font-size: 18px;
+    font-weight: 700;
+}
+#reviews h1{
+    margin-bottom: 20px;
+    color: #013f7e;
+}
+#reviews p{
+    padding-bottom: 20px;
+}
+#reviews .middle{
+    margin: -30px 0;
+}
+
+
+/* subscribe */
+
+#subscribe{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    margin: 0 auto -160px;
+    max-width: 70vw;
+}
+#subscribe h3,#subscribe p{
+    color: #fff;
+}
+
+.input-group{
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.input-group .form-control{
+    border: none;
+    background: transparent;
+}
+.input-group .form-control:focus{
+    box-shadow: none;
+    background: transparent;
+}
+
+#subscribe .input-group-append{
+    background-image: linear-gradient(to right, #1c03b5,#5c8bef);
+    border-radius: 30px;
+}
+#subscribe .input-group-text{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+#subscribe .btn{
+    box-shadow: none;
+}
+
+/* footer */
+#footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+#footer h1{
+    font-size: 15px;
+    text-align: left;
+    margin: 25px 0;
+}
+#footer p{
+    font-size: 12px;
+    text-align: left;
+}
+
+.footer-logo{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer .state{
+    margin-left: 35px;
+}
+#footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#footer .fa-heart{
+    color: red;
+    font-size: 15px;
+}
+
+#footer .cr{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+}
